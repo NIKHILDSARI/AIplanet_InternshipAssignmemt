@@ -20,7 +20,23 @@ Sending POST and GET request - used POSTMAN
     
 Endpoints -
 
-1) create_hackathon/ - (POST) Endpoint for creating a new Hackathon. This API can only be accessed by authorized users who provide their credentials.
+ create_hackathon/ - 
+ 	
+	Description: (POST) Endpoint for creating a new Hackathon. This API can only be accessed by authorized users who provide their credentials.
+	Input: {
+    "title": "HCL Volt MX Hackathon 2023",
+    "description":  " Configurable e-commerce app E-commerce applications have multiple micro-apps that work together or create a 
+    larger application.Some of these micro-apps include authentication, inventory management,payments, and delivery, just to name a few. This app can 
+    also be configured for different domains in e-commerce such as clothes and electronics.",
+    "submission_type":"file",
+    "start_date":"Mar 14, 2023",
+    "end_date":"May 15, 2023",
+    "reward_prize":"USD 7000",
+    "github_repository":"https://github.com/NIKHILDSARI/",
+    "other_links": "primus.dasari@gmail.com"
+}
+
+
 
 2) uploadsubmission/ - (POST) Endpoint for participants to upload their submissions. This API can only be accessed by participants
  			who provide their credentials. The API validates the participant's submission based on its type. For file submissions, it checks for empty 			   files.For link submissions, it checks for valid links.
