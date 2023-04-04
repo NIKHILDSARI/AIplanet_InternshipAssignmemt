@@ -18,7 +18,15 @@ Creating Django project -
 	
 Sending POST,GET requests and files - using POSTMAN (form-data)
     
-Endpoints -
+Endpoints - 
+
+			1) create_hackathon/
+ 			2) uploadsubmission/ 
+			3) registration/
+			4) enrolledlist/ 
+			5) allsubmissions/ 
+ 			6) listofhackathons/ 
+ 			7) favouritesubmissions/ 
 
  create_hackathon/  
  	
