@@ -53,7 +53,10 @@ Endpoints -
     			"username": "nikhil1234",
     			"password": "nikhil1234"
 		}
-
+		
+	backgroundimage : backgroundimage.png
+	
+	logoimage       : logo.png
 
 
  uploadsubmission/ 
