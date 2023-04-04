@@ -30,7 +30,8 @@ Endpoints -
     			"title": "HCL Volt MX Hackathon 2023",
   			"description":  " Configurable e-commerce app E-commerce applications have multiple 
 					  micro-apps that work together or create a larger application.Some of these micro-apps
-					  include authentication, inventory management,payments, and delivery, just to name				          a 					      few. This app can also be configured for different domains in e-commerce such as
+					  include authentication, inventory management,payments, and delivery, just to name a few. 
+					  This app can also be configured for different domains in e-commerce such as
 					  clothes and electronics.",
     			"submission_type":"file",
     			"start_date":"Mar 14, 2023",
