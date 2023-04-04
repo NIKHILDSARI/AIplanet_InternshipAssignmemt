@@ -65,7 +65,7 @@ Endpoints -
     					"password": "samtron555v"
 				}
 				
-		challenge_submissions: 2022-02-02.png 
+		challenge_submissions:  2022-02-02.png 
 
 
 registration/ - 
