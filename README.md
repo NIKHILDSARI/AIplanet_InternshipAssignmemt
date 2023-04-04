@@ -16,7 +16,7 @@ Creating Django project -
 
 		django-admin startapp  Hackathon_api
 	
-Sending POST,GET requests and files - using POSTMAN (form-data)
+Postman(form-data) - Sending POST,GET requests and files
     
 Endpoints - 
 
