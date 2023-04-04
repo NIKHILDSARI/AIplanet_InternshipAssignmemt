@@ -48,7 +48,7 @@ Endpoints -
 
 
 
- uploadsubmission/ - 
+ uploadsubmission/ 
 		
 
 		Description: (POST) Endpoint for participants to upload their submissions. This API can only be accessed by 
@@ -73,7 +73,7 @@ Endpoints -
 		challenge_submissions:  2022-02-02.png 
 
 
-registration/ - 
+registration/ 
 
 		Description: (POST) Endpoint for participants to register for a particular hackathon.
 		
@@ -90,7 +90,7 @@ registration/ -
 				}
 
 
-enrolledlist/ - 
+enrolledlist/ 
 
 		Description: (POST) Endpoint to get a list of all the hackathons in which a participant is enrolled.
 		Inputs :-
@@ -100,7 +100,7 @@ enrolledlist/ -
 				}
 				
 				
-allsubmissions/ - 
+allsubmissions/ 
 
 		Description: (POST) Endpoint to get a list of all the submissions of a participant.
 		
@@ -110,12 +110,12 @@ allsubmissions/ -
    					 "password": "samtron555v"
 				}
 
- listofhackathons/ - 
+ listofhackathons/ 
  
  		Description: (GET) Endpoint to get a list of hackathons created by an authorized user.
 		
 		
- clickonsubmission/ - 
+ clickonsubmission/ 
  
  		Description: (POST) Endpoint to get the data of a particular hackathon when clicked.
 		
@@ -124,7 +124,7 @@ allsubmissions/ -
 				"title":"wipro Volt MX Hackathon 2023"
 			}
 
-favouritesubmissions/ - 
+favouritesubmissions/ 
 
 		Description: (POST) Endpoint to get all the favourite submissions of a participant.
 		
@@ -136,7 +136,7 @@ favouritesubmissions/ -
 
 Methods used -
 
-loads method from json module to fetch data from request body
+	loads method from json module to fetch data from request body
 
-serialize method from serializers module to serialize querysets to required formates
+	serialize method from serializers module to serialize querysets to required formates
 
