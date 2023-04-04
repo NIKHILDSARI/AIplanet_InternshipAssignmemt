@@ -55,7 +55,7 @@ Endpoints -
    					"enrolled_hackathon":"HCL Volt MX Hackathon 2023",
 					"submission_name":"submission_name",
 					"submission_summary":"submission_summary",
-					"challenge":"https://github.com/NIKHILDSARI/",
+					"challenge":"",
 					"favourite":"true"
         
         			}
@@ -64,6 +64,8 @@ Endpoints -
     					"username": "test_user1",
     					"password": "samtron555v"
 				}
+				
+		challenge_submissions: 2022-02-02.png 
 
 
 registration/ - 
