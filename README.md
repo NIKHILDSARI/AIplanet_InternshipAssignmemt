@@ -25,18 +25,24 @@ Endpoints -
 	Description: (POST) Endpoint for creating a new Hackathon. This API can only be accessed by authorized users
 		      who provide their credentials.
 	
+	Inputs :-
 	
-	Input: {
-    		"title": "HCL Volt MX Hackathon 2023",
-  		"description":  " Configurable e-commerce app E-commerce applications have multiple micro-apps that work together or create a 
+	hackathon: {
+    			"title": "HCL Volt MX Hackathon 2023",
+  			"description":  " Configurable e-commerce app E-commerce applications have multiple micro-apps that work together or create a 
    			          larger application.Some of these micro-apps include authentication, inventory management,payments, and delivery, just to name				          a few. This app can also be configured for different domains in e-commerce such as clothes and electronics.",
-    		"submission_type":"file",
-    		"start_date":"Mar 14, 2023",
-    		"end_date":"May 15, 2023",
-    		"reward_prize":"USD 7000",
-    		"github_repository":"https://github.com/NIKHILDSARI/",
-    		"other_links": "primus.dasari@gmail.com
-    }
+    			"submission_type":"file",
+    			"start_date":"Mar 14, 2023",
+    			"end_date":"May 15, 2023",
+    			"reward_prize":"USD 7000",
+    			"github_repository":"https://github.com/NIKHILDSARI/",
+    			"other_links": "primus.dasari@gmail.com
+    	}
+	
+    	credentials : {
+    			"username": "nikhil1234",
+    			"password": "nikhil1234"
+		}
 
 
 
