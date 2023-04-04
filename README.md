@@ -15,6 +15,8 @@ Creating Django project -
 		django-admin startproject Hackathon .
 
 		django-admin startapp  Hackathon_api
+	
+Sending POST and GET request - used POSTMAN
     
 Endpoints -
 
@@ -40,3 +42,4 @@ Methods used -
 loads method from json module to fetch data from request body
 
 serialize method from serializers module to serialize querysets to required formates
+
