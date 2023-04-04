@@ -16,7 +16,7 @@ Creating Django project -
 
 		django-admin startapp  Hackathon_api
 	
-Sending POST and GET request - used POSTMAN
+Sending POST,GET requests and files - using POSTMAN (form-data)
     
 Endpoints -
 
@@ -26,7 +26,6 @@ Endpoints -
 		      who provide their credentials.
 	
 	Inputs :-
-	
 	hackathon: {
     			"title": "HCL Volt MX Hackathon 2023",
   			"description":  " Configurable e-commerce app E-commerce applications have multiple micro-apps that work together or create a 
@@ -47,11 +46,11 @@ Endpoints -
 
 
  uploadsubmission/ - 
-
+		
 
 		Description: (POST) Endpoint for participants to upload their submissions. This API can only be accessed by participants
  			     who provide their credentials. The API validates the participant's submission based on its type. For file submissions, it checks for empty 			     files.For link submissions, it checks for valid links.
-			  
+		Inputs :-
 		submission:  	{
    					"enrolled_hackathon":"HCL Volt MX Hackathon 2023",
 					"submission_name":"submission_name",
@@ -71,6 +70,7 @@ registration/ -
 
 		Description: (POST) Endpoint for participants to register for a particular hackathon.
 		
+		Inputs :-
 		Registration: {
 					"enrolled_to":"akhil Volt MX Hackathon 2023",
 					"participant_name" : "participant_name",	
@@ -86,7 +86,7 @@ registration/ -
 enrolledlist/ - 
 
 		Description: (POST) Endpoint to get a list of all the hackathons in which a participant is enrolled.
-		
+		Inputs :-
 		credentials : {
     					"username": "test_user1",
    				 	"password": "samtron555v"
@@ -96,6 +96,8 @@ enrolledlist/ -
 allsubmissions/ - 
 
 		Description: (POST) Endpoint to get a list of all the submissions of a participant.
+		
+		Inputs :-
 		credentials : {
    					 "username": "test_user1",
    					 "password": "samtron555v"
@@ -110,6 +112,7 @@ allsubmissions/ -
  
  		Description: (POST) Endpoint to get the data of a particular hackathon when clicked.
 		
+		Inputs :-
 		title : {
 				"title":"wipro Volt MX Hackathon 2023"
 			}
@@ -117,6 +120,8 @@ allsubmissions/ -
 favouritesubmissions/ - 
 
 		Description: (POST) Endpoint to get all the favourite submissions of a participant.
+		
+		Inputs :-
 		credentials : {
    				 "username": "test_user1",
     				"password": "samtron555v"
